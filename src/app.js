@@ -52,7 +52,7 @@ app.use(require('./routes/authRoutes'));
 app.use(require('./routes/movieRoutes'));
 app.use(require('./routes/verifyRoutes'));
 
-// ✅ TAMBAHKAN INI UNTUK /upload
+
 app.use(require('./routes/uploadRoutes'));
 
 // START SERVER
